@@ -7,7 +7,7 @@ import { createServer as createViteServer } from 'vite';
 dotenv.config({ path: ['.env.local', '.env'] });
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // Enable CORS and preflight for all origins
 app.use((req, res, next) => {
@@ -268,7 +268,7 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
+    app.listen(PORT, '0.0.0.0', () => {
     console.log(`Overthinking as a Service server running on http://0.0.0.0:${PORT}`);
   });
 }

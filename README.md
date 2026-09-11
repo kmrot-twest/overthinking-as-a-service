@@ -1,25 +1,4 @@
-<<<<<<< HEAD
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/9fb425c3-d23b-453a-ae3a-bd83d7ad5aa6
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-=======
 <img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
 
@@ -89,13 +68,16 @@ A chat with the Doomer bot
 How the bot replies to messages
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+
+
+<img width="1376" height="768" alt="Gemini_Generated_Image_eis7n7eis7n7eis7" src="https://github.com/user-attachments/assets/31afbcf0-3de5-4f00-a897-c71a692b8f55" />
+
+This is our workflow
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1_ZnHw2nUXysV1irBKJ0-dhVBNGD1oMAX/view?usp=drive_link
+It shows the website how to use it.
 
 ## Team Contributions
 - [Name 1]: [Specific contributions]

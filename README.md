@@ -14,8 +14,8 @@ Open `http://localhost:3000`.
 ## Deploy to Vercel
 
 1. Import this project into Vercel or run `vercel` from the project directory.
-2. Keep the default build command, or use `npm run build`.
-3. Keep the output directory as `dist`.
+2. Use `npm run build` as the build command.
+3. Use `dist` as the output directory.
 4. Add no environment variables. The included `.env.example` is informational only.
 
 Vercel serves the Vite app from `dist` and the serverless endpoints from `api/`. The available endpoints are `GET /api/health` and `POST /api/chat`.
